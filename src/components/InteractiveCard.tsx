@@ -18,14 +18,9 @@ export default function InteractiveCard({
     }
   }
 
-  function onCarSelected() {
-    alert('You Select ' + contentName);
-  }
-
   return (
     <div
       className="w-1/5 h-[300px] rounded-lg shadow-lg"
-      onClick={() => onCarSelected()}
       onMouseOver={(e) => onCardMouseAction(e)}
       onMouseOut={(e) => onCardMouseAction(e)}
     >
